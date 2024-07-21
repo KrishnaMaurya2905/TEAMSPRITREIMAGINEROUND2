@@ -78,37 +78,38 @@ const Roster = () => {
     {
       title: "ATHLETICS",
       name: "Rob Gronkowski",
-      src: "https://web-assests.monsterenergy.com/mnst/a4d80c32-11b8-449f-8717-fca9824f464f.webp",
+      src: "https://res.cloudinary.com/dqzci9flc/image/upload/v1721504796/a4d80c32-11b8-449f-8717-fca9824f464f_zmka1k.webp",
       country: "United States",
     },
     {
       title: "GAMING",
       name: "Team Liquid",
-      src: "https://web-assests.monsterenergy.com/mnst/d79a7142-225f-47ea-add5-c970f611f71e.webp",
+      src: "https://res.cloudinary.com/dqzci9flc/image/upload/v1721504790/d79a7142-225f-47ea-add5-c970f611f71e_x8o9rz.webp",
       country: "United States",
     },
     {
       title: "SKATEBOARD",
       name: "Liz Akama",
-      src: "https://web-assests.monsterenergy.com/mnst/30703c2c-1d97-4a0e-9fe5-db6465742a48.webp",
+      src: "https://res.cloudinary.com/dqzci9flc/image/upload/v1721504776/30703c2c-1d97-4a0e-9fe5-db6465742a48_vsyoxw.webp",
       country: "Japan",
     },
     {
       title: "SKATEBOARD",
       name: "Nyjah Huston",
-      src: "https://web-assests.monsterenergy.com/mnst/e69c01ef-f438-42d3-967c-705b4c6f70fb.webp",
+      src: "https://res.cloudinary.com/dqzci9flc/image/upload/v1721504769/e69c01ef-f438-42d3-967c-705b4c6f70fb_tgoi0d.webp",
       country: "United States",
     },
     {
       title: "MONSTER GIRL",
       name: "Bradi",
-      src: "https://web-assests.monsterenergy.com/mnst/bcbe996e-870f-4efd-a83c-a4b211aaec88.webp",
+      src: "https://res.cloudinary.com/dqzci9flc/image/upload/v1721504728/bcbe996e-870f-4efd-a83c-a4b211aaec88_our5bx.webp",
       country: "United States",
     },
   ];
+  
   const rostertextRef = useRef();
   return (
-    <div ref={container} className="relative bg-black">
+    <div ref={container} className="relative bg-transparent">
       {projects.map((project, i) => {
         const targetScale = 1 - (projects.length - i) * 0.1;
         return (

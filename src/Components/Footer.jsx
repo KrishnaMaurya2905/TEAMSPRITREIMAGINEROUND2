@@ -67,7 +67,7 @@ const Footer = () => {
           <div className="video-text banner w-full h-[70%] flex flex-col justify-center overflow-hidden items-center relative" ref={ref}>
             {inView && (
               <div className="w-full h-full">
-                <video className="absolute inset-0 w-full h-full top-0 left-0 object-cover" loop muted autoPlay src="/Beoplay EX Limited Edition with Lay Zhang.mp4"></video>
+                <video className="absolute inset-0 w-full h-full top-0 left-0 object-cover" loop muted autoPlay src="https://res.cloudinary.com/dqzci9flc/video/upload/v1721480473/lan_hsd34a.mp4"></video>
                 <h1 className="text-center w-full font-['Teko'] text-white text-[15vw] tracking-wider absolute top-[-9vh] bg-black mix-blend-darken z-[999] ">
                   MONSTER ENERGY
                 </h1>

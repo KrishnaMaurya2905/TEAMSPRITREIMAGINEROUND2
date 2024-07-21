@@ -2,17 +2,19 @@ import React, { useEffect } from "react";
 import NavLinkAnimation from "./NavLinkAnimation";
 const MonsterEnergySnap = () => {
   const DragableSliderImages = [
-    "/src/assets/EijYzVoWAAQAHLI.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/2.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/3.jpg",
-    "/src/assets/3.jpg",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721480363/372707732_7117288621702485_7671708406808279130_n_glvzzv.webp",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721480360/386180647_1293568164628943_2419545368542252995_n_cn5vkp.webp",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721480917/427984392_627415589511877_4946698606460443972_n_nd4ajc.webp",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721502758/358394955_798433725263978_8454628538345894334_n_g4bniq_clkvwi.webp",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721480366/363869677_264588033036057_5705013995868926740_n_bilruu.webp",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721480345/418151056_1370813243572202_442690503800903250_n_mujxso.webp",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721480344/e18719ac-c25a-4ce6-8077-2fab9f781c33.__CR0_1202_3335_1796_PT0_SX650_V1____2_rmycqf.webp",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721504322/310723447_195926169540501_3326165987140872952_n.webp_z4z0pw_tljeky.webp", 
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721480918/358507613_1122871839100868_3245888769577614314_n_xhdmlv.webp",
+    "https://res.cloudinary.com/dqzci9flc/image/upload/v1721480372/331166736_719107593005978_5404562749894080970_n_kvtici.webp",
   ];
+  
+  
   useEffect(() => {
     const DragScroll = function (obj) {
       const el = document.querySelector(obj.el);
@@ -137,7 +139,7 @@ const MonsterEnergySnap = () => {
   }, []);
 
   return (
-    <div className="h-[70vh] max-sm:h-[50vh] relative bg-black text-white gap-10 overflow-hidden flex flex-col z-10  items-center justify-center">
+    <div className="h-[70vh] max-sm:h-[50vh] relative bg-transparent text-white gap-10 overflow-hidden flex flex-col z-10  items-center justify-center">
       <h1 className="text-[4rem] max-sm:text-[2rem] font-['teko'] uppercase">
         {/* <DescramblerText> # Monster Energy</DescramblerText> */}
         <NavLinkAnimation>#Monster Energy</NavLinkAnimation>
